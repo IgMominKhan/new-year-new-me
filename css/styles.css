@@ -69,16 +69,19 @@ img {
 
 }
 
+main,
+footer,
+.my-plans {
+    padding-block: 8.125rem
+}
+
 /* header */
 
 header {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.banner {
-    padding-block: 6rem;
+    background-size: 100% 100%;
+    padding-block: 10rem;
     color: white;
 }
 
@@ -86,35 +89,32 @@ header {
     width: 45%;
     text-align: right;
     margin-left: auto;
+
 }
 
 .hero-header {
     font-size: 65px;
+    margin-block: 1rem;
 }
 
 main {
     background-color: white;
-    padding-block: 8.125rem;
 }
 
 /* failure */
-
-section {}
 
 .failure .flex {
     gap: 5rem;
     align-items: flex-end;
 }
 
-.padding-bottom {
-    padding-bottom: 2rem;
+.spacing {
+    margin-bottom: 2rem;
 }
 
 /* my plans */
 
-.my-plans {
-    padding: 8.125rem 0;
-}
+.my-plans {}
 
 .my-plans .section__title {
     margin-block: 0 1.5em;
@@ -127,7 +127,7 @@ section {}
 .section__sub-title {
     margin-bottom: 0;
     font-size: 30px;
-    color:#444343;
+    color: #444343;
 }
 
 .section__sub-title+p {
@@ -167,20 +167,23 @@ section {}
 footer {
     background-color: #444343;
     color: white;
-    padding-block: 130px;
 }
 
 
-    
+
 .footer__header {
     font-size: 45px;
     margin-block: .5rem;
-    
+
 }
 
 .icon-container {
     display: flex;
     gap: 1rem
+}
+
+.icon-container a {
+cursor: pointer;
 }
 
 
@@ -190,29 +193,29 @@ footer {
 }
 
 form {
-    width:325px;
-    margin-left:auto;
+    width: 325px;
+    margin-left: auto;
 }
 
-input[type='email']{
-    width:100%;
-    padding:1.25rem;
-    border: 2px solid  #f3f3f3;
+input[type='email'] {
+    width: 100%;
+    padding: 1.25rem;
+    border: 2px solid #f3f3f3;
     font-size: 1.125rem;
-    border-radius:5px;
+    border-radius: 5px;
     background-color: transparent;
-    color:white
+    color: white
 }
 
 input[type='email']::placeholder {
-    color:#f3f3f3;
+    color: #f3f3f3;
 }
 
 input[type='email']:focus {
-    outline:none;
+    outline: none;
 }
 
 .btn-submit {
     background-color: #005fac;
-    color:white;
+    color: white;
 }
