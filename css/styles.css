@@ -112,6 +112,10 @@ main {
     margin-bottom: 2rem;
 }
 
+.list__item::marker {
+    content:'✓ ';
+    color:green;
+}
 /* my plans */
 
 .my-plans {}
